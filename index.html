@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
     <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="js/scripts.js"></script>
     <title>Cats vs Dogs</title>
   </head>
@@ -14,20 +15,22 @@
       <img src="img/sushi-cat.jpg" alt="sushi cat" />
       <img src="img/sushi-dog.jpg" alt="sushi dog" />
     </div>
-    <div class="col-md-12">
-      <button type="button" class="btn btn-default">Default</button>
-      <button type="button" class="btn btn-danger">Danger</button>
+    <div class="col-md-6">
+      <button type="button" class="btn btn-default" id="meow">Meow</button>
+    </div>
+    <div class="col-md-6">
+      <button type="button" class="btn btn-danger" id="bark">Bark</button>
     </div>
 
     <div class="col-md-6" id="cats">
       <p>Sushi Cat says</p>
-      <ul class="">
+      <ul id="meow-back">
 
       </ul>
     </div>
     <div class="col-md-6" id="dogs">
       <p>Sushi Dog says</p>
-      <ul>
+      <ul id="bark-back">
 
       </ul>
     </div>
